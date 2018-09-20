@@ -15,7 +15,7 @@
                 <div>
                     <form action="/">
                             <div class=" margin-right">
-                                    <div><i class="fas fa-shopping-cart"></i></i></i> Giỏ hàng <i class="fas fa-angle-down"></i></div>
+                                    <div><a href="{{url('shoppingcart')}}"><i class="fas fa-shopping-cart"></i></a>Giỏ hàng <i class="fas fa-angle-down"></i></div>
                                     <span>0 Item</span>
                             </div> 
                     </form>
@@ -47,10 +47,10 @@
                                 </div>
                           </div>
                           <div>
-                                <a class="font-weight-bold text-color" href="{{url('shoes.adidas_shoe')}}">GIÀY ADIDAS CHÍNH HÃNG</a>
+                                <a class="font-weight-bold text-color" href="{{url('adidas_shoe')}}">GIÀY ADIDAS CHÍNH HÃNG</a>
                           </div>
                           <div>
-                                <a class="font-weight-bold text-color"  href="{{url('shoes.nike_shoe')}}">GIÀY NIKE CHÍNH HÃNG</a>
+                                <a class="font-weight-bold text-color"  href="{{url('nike_shoe')}}">GIÀY NIKE CHÍNH HÃNG</a>
                           </div>
                             <div class="dropdown">
                                 <a class="font-weight-bold text-color" href="">BOG<i class="fas fa-angle-down mx-2"></i></a>
@@ -61,7 +61,7 @@
                                     </div>
                             </div>
                           <div>
-                            <a class="font-weight-bold text-color" href="{{url('.shoes.size_guide')}}">HƯỚNG DẪN CHỌN SIZE GIÀY</a>
+                            <a class="font-weight-bold text-color" href="{{url('size_guide')}}">HƯỚNG DẪN CHỌN SIZE GIÀY</a>
                           </div>       
                           <div>
                                     <a href="#">
