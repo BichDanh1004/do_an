@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\User;
-use Hash;
-class PageController extends Controller
+
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -82,10 +81,41 @@ class PageController extends Controller
     {
         //
     }
-
-    public function getSignup()
+    public function Login()
     {
-        return view('user/signup');
+        return view('user.login');
+    }
+
+
+    public function Signup()
+    {
+        return view('user.signup');
+    }
+
+
+
+    public function HomePage()
+    {
+        return view('user.homepage');
+    }
+
+
+    public function GenuineShoe()
+    {
+        return view('user.genuine_shoe');
+    }
+    
+    
+    public function Layout()
+    {
+
+        return view('user.layout');
+    }
+
+
+    public function SizeGuide()
+    {
+        return view('user.size_guide');
     }
 
     public function postSignup(Request $request)
@@ -141,3 +171,4 @@ class PageController extends Controller
             }
         }
 }
+

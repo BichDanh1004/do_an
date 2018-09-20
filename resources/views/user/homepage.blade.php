@@ -1,5 +1,5 @@
-@extends('user.index')
-@section('content')
+@extends('user.layout')
+@section('homepage')
 
 <div class="container-fluid">
         <div class="d-flex flex-row ">

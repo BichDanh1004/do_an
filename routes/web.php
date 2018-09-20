@@ -14,64 +14,21 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/a',function(){
-    return view('user/adidas_shoe');
-});
-Route::get('/content',function(){
-    return view('user/content');
-});
-Route::get('/genuine_shoe',function()
-{
-    return view('user/genuine_shoe');
-});
-Route::get('/nike_shoe',function()
-{
-    return view('user/nike_shoe');
-});
-Route::get('/adidas_shoe',function()
-{
-    return view('user/adidas_shoe');
-});
-Route::get('/guide',function()
-{
-    return view('user/size_guide');
-});
-Route::get('/login',function()
-{
-    return view('user/login');
-});
-Route::get('/signup',function()
-{
-    return view('user/signup');
-});
-Route::get('/size_guide',function()
-{
-    return view('user/size_guide');
-});
-Route::get('/genuine_shoe',function()
-{
-    return view('user/genuine_shoe');
-});
-Route::get('/men_shoe',function()
-{
-    return view('user/men_shoe');
-});
-Route::get('/women_shoe',function()
-{
-    return view('user/women_shoe');
-});
-Route::get('/signup','PageController@getSignup');
-Route::post('/signup','PageController@postSignup');
 
-Route::get('/shoppingcart',function()
-{
-    return view('user/shoppingcart');
-});
+Route::get('signup','UserController@Signup');
+Route::get('login','UserController@Login');
+Route::get('layout','UserController@Layout');
+Route::get('homepage','UserController@HomePage');
+Route::get('genuine_shoe','UserController@GenuineShoe');
+Route::get('size_guide','UserController@SizeGuide');
+
+Route::get('cart','CartController@Cart');
+Route::get('shoppingcart','CartController@ShoppingCart');
+Route::get('product_detail','ProductController@ProductDetail');
+Route::get('adidas_shoe','ShoesController@AdidasShoe');
+Route::get('nike_shoe','ShoesController@NikeShoe');
+Route::get('men_shoe','ShoesController@MenShoe');
+Route::get('women_shoe','ShoesController@womenShoe');
 
 
-Route::get('/detail',function()
-{
-    return view('user/product_detail');
-});
-
-
+ 

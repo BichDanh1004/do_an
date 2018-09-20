@@ -1,4 +1,4 @@
-@extends('user.index')
+@extends('user.layout')
 @section('login')
 <div class="inner-header login">
     <div class="container">

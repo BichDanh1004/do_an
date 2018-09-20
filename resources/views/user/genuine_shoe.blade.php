@@ -1,4 +1,4 @@
-@extends('user.index')
+@extends('user.layout')
 @section('genuine_shoe')
 
 <div class="container-fluid">

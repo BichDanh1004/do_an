@@ -1,4 +1,4 @@
-@extends('user.index')
+@extends('user.layout')
 @section('shoppingcart')
 
 <div class="inner-header">

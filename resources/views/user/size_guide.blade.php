@@ -1,4 +1,4 @@
-@extends('user.index')
+@extends('user.layout')
 @section('size_guide')
         <div class="container">
             <div class="text-align-center mt-5">
