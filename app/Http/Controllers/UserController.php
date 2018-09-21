@@ -83,39 +83,39 @@ class UserController extends Controller
     }
     public function Login()
     {
-        return view('user.login');
+        return view('customer.login');
     }
 
 
     public function Signup()
     {
-        return view('user.signup');
+        return view('customer.signup');
     }
 
 
 
     public function HomePage()
     {
-        return view('user.homepage');
+        return view('customer.homepage');
     }
 
 
     public function GenuineShoe()
     {
-        return view('user.genuine_shoe');
+        return view('customer.genuine_shoe');
     }
     
     
     public function Layout()
     {
 
-        return view('user.layout');
+        return view('customer.layout');
     }
 
 
     public function SizeGuide()
     {
-        return view('user.size_guide');
+        return view('customer.size_guide');
     }
 
     public function postSignup(Request $request)

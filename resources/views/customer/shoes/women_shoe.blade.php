@@ -1,5 +1,5 @@
-@extends('user.layout')
-@section('adidas_shoe')
+@extends('customer.layout')
+@section('women_shoe')
 
 <div class="container-fluid">
     <div class="d-flex flex-row ">
@@ -60,7 +60,9 @@
                                         <li class="list-group-item">
                                             <a href="#">Giày cho Nữ</a>
                                         </li>
-                                        
+                                        <li class="list-group-item">
+                                            <a href="#">Level2</a>
+                                        </li>
                                       
                                     </ul>
                 
@@ -100,7 +102,7 @@
 
             <div class="col-9 genuine_shoes_right mt-5">
                 <div class="col-12">
-                        <h3 class="mb-4">ADIDAS</h3>
+                        <h3 class="mb-4">GIÀY CHO NỮ</h3>
                         <div class="d-flex flex-column flex-md-row">
 
                                 <div class="col-3">

@@ -84,21 +84,21 @@ class ShoesController extends Controller
 
     public function AdidasShoe()
     {
-        return view('user.shoes.adidas_shoe');
+        return view('customer.shoes.adidas_shoe');
     }
 
     public function NikeShoe()
     {
-        return view('user.shoes.nike_shoe');
+        return view('customer.shoes.nike_shoe');
     }
 
     public function MenShoe()
     {
-        return view('user.shoes.men_shoe');
+        return view('customer.shoes.men_shoe');
     }
 
     public function WomenShoe()
     {
-        return view('user.shoes.women_shoe');
+        return view('customer.shoes.women_shoe');
     }
 }

@@ -83,7 +83,7 @@ class ProductController extends Controller
     }
     public function ProductDetail()
     {
-        return view('user.product.product_detail');
+        return view('customer.product.product_detail');
     }
 
 

@@ -1,4 +1,4 @@
-@extends('user.layout')
+@extends('customer.layout')
 @section('signup')
 
 <div class="inner-header">

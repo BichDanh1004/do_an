@@ -80,13 +80,13 @@ class CartController extends Controller
    
     public function ShoppingCart()
     {
-        return view('user.cart.shoppingcart');
+        return view('customer.cart.shoppingcart');
     }
 
 
     public function Cart()
     {
-        return view('user.cart.cart');
+        return view('customer.cart.cart');
     }
 
 }

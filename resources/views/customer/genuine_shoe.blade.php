@@ -1,4 +1,4 @@
-@extends('user.layout')
+@extends('customer.layout')
 @section('genuine_shoe')
 
 <div class="container-fluid">
@@ -109,7 +109,7 @@
                                     <div class="card mb-3 "> 
                                         <div class="card">
                                             <div class="img-thumbnail image-hover">
-                                                <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}}" >
                                             </div>
                                                                             
                                             <div class="card-body">
@@ -129,7 +129,7 @@
                                         <div class="card mb-3 "> 
                                             <div class="card">
                                                 <div class="img-thumbnail image-hover">
-                                                    <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                    <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}}" >
                                                 </div>
                                                                                 
                                                 <div class="card-body">
@@ -149,7 +149,7 @@
                                             <div class="card mb-3 "> 
                                                 <div class="card">
                                                     <div class="img-thumbnail image-hover">
-                                                        <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                        <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}}" >
                                                     </div>
                                                                                     
                                                     <div class="card-body">
@@ -170,7 +170,7 @@
                                                 <div class="card mb-3 "> 
                                                     <div class="card">
                                                         <div class="img-thumbnail image-hover">
-                                                            <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                            <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}}" >
                                                         </div>
                                                                                         
                                                         <div class="card-body">
@@ -197,7 +197,7 @@
                                     <div class="card mb-3 "> 
                                         <div class="card">
                                             <div class="img-thumbnail image-hover">
-                                                <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}}" >
                                             </div>
                                                                             
                                             <div class="card-body">
@@ -217,7 +217,7 @@
                                         <div class="card mb-3 "> 
                                             <div class="card">
                                                 <div class="img-thumbnail image-hover">
-                                                    <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                    <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}}" >
                                                 </div>
                                                                                 
                                                 <div class="card-body">
@@ -237,7 +237,7 @@
                                             <div class="card mb-3 "> 
                                                 <div class="card">
                                                     <div class="img-thumbnail image-hover">
-                                                        <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                        <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}} ">
                                                     </div>
                                                                                     
                                                     <div class="card-body">
@@ -258,7 +258,7 @@
                                                 <div class="card mb-3 "> 
                                                     <div class="card">
                                                         <div class="img-thumbnail image-hover">
-                                                            <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
+                                                            <img class="card-img-top" src="{{asset('./customer/images/image1.jpg')}} ">
                                                         </div>
                                                                                         
                                                         <div class="card-body">

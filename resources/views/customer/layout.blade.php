@@ -16,14 +16,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU">
-    <link rel="stylesheet" href={{asset('./css/font-awesome.min.css')}}>
+    <link rel="stylesheet" href="{{asset('customer/css/font-awesome.min.css')}}">
     <title>Document</title>
-    <link rel="stylesheet" title="style" href={{asset('./css/style.css')}}>
+    <link rel="stylesheet" title="style" href="{{asset('customer/css/style.css')}}">
 </head>
 <body>
 
 <div id="main">
-    @include('user.header')
+    @include('customer.header')
    <div class="content-page">
    
        <!-- Start content -->
@@ -53,9 +53,9 @@
    </div>
    <!-- END content-page -->
    
-   @include('user.footer')
+   @include('customer.footer')
 
 </div>
 </body>
-<script src="{{asset('js/admin/javascript.js')}}"></script>
+<script src="{{asset('./customer/js/javascript.js')}}"></script>
 </html>
