@@ -1,5 +1,5 @@
 @extends('customer.layout')
-@section('size_guide')
+@section('custom-container')
         <div class="container">
             <div class="text-align-center mt-5">
                 <h1>HƯỚNG DẪN CHỌN SIZE GIÀY ADIDAS, NIKE CHUẨN</h1>

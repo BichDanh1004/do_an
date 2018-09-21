@@ -1,19 +1,6 @@
 @extends('customer.layout')
-@section('signup')
+@section('custom-container')
 
-<div class="inner-header">
-		<div class="container">
-			<div class="pull-left">
-				<h4 >THÔNG TIN THANH TOÁN</h4>
-			</div>
-			<div class="pull-right">
-				<div class="beta-breadcrumb font-large">
-					<a href="{{url('adidas_shoe')}}">Home</a> / <span>Pay</span>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
 
 <div class="container">
 	<div class="row carousel-holder">

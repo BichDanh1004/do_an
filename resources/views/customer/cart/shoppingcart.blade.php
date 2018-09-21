@@ -1,21 +1,8 @@
 @extends('customer.layout')
-@section('shoppingcart')
+@section('custom-container')
 
-<div class="inner-header">
-		<div class="container">
-			<div class="pull-left">
-				<h4>Shopping Cart</h4>
-			</div>
-			<div class="pull-right">
-				<div class="beta-breadcrumb font-large">
-					<a href="{{url('adidas_shoe')}}">Home</a> / <span>Product</span>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+
 <div class="container">
-    <div class="d-flex flex-row">
             <table class="table table-bordered">
                     <thead>
                       <tr>
@@ -31,7 +18,7 @@
                       <tr>
                           
                           <td>
-                            <div class=" d-flex justify-content-center"><img width="107" height="107"  src="{{asset('./images/slide2.jpg')}}"> Adidas EQN</div>	
+                            <div class=" d-flex justify-content-center"><img width="107" height="107"  src="{{asset('./customer/images/slide2.jpg')}}"> Adidas EQN</div>	
                           <td>
                                 <span>1,650,000&nbsp;<span>₫</span></span>
                           </td>
@@ -53,7 +40,7 @@
                       <tr>
                           
                           <td>
-                            <div class=" d-flex justify-content-center"><img width="107" height="107"  src="{{asset('./images/slide2.jpg')}}"> Adidas EQN</div>	
+                            <div class=" d-flex justify-content-center"><img width="107" height="107"  src="{{asset('./customer/images/slide2.jpg')}}"> Adidas EQN</div>	
                           <td>
                                 <span>1,650,000&nbsp;<span>₫</span></span>
                           </td>
@@ -71,7 +58,7 @@
                     </tbody>
                   </table>    
 
-    </div>
+  
 </div>
 <div class="container">
   <div class="d-flex flex-row mt-4 mb-5">

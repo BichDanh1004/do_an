@@ -1,14 +1,11 @@
 @extends('customer.layout')
-@section('nike_shoe')
+@section('custom-container')
 
 <div class="container-fluid">
     <div class="d-flex flex-row ">
         <div class="col-12 ">
 
                 <div class="col-md-3 mt-5 genuine_shoes_left">
-
-
-                       
                                 <ul class="list-group" id="menu">
                                     <li href="#" class="list-group-item menu1 active">
                                         DANH MỤC SẢN PHẨM
@@ -60,9 +57,7 @@
                                         <li class="list-group-item">
                                             <a href="#">Giày cho Nữ</a>
                                         </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Level2</a>
-                                        </li>
+                                        
                                       
                                     </ul>
                 
@@ -117,8 +112,7 @@
                                                     <p>Sample Woman Top</p>
                                                 </div>
                                                 <div>
-                                                    <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                    <a>Details <i class="fas fa-angle-right"></i></a>
+                                                    <a class="btn btn-primary">Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -137,8 +131,7 @@
                                                         <p>Sample Woman Top</p>
                                                     </div>
                                                     <div>
-                                                        <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                        <a>Details <i class="fas fa-angle-right"></i></a>
+                                                        <a class="btn btn-primary">Details</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -157,8 +150,7 @@
                                                             <p>Sample Woman Top</p>
                                                         </div>
                                                         <div>
-                                                            <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                            <a>Details <i class="fas fa-angle-right"></i></a>
+                                                            <a class="btn btn-primary">Details</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -178,8 +170,7 @@
                                                                 <p>Sample Woman Top</p>
                                                             </div>
                                                             <div>
-                                                                <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                                <a>Details <i class="fas fa-angle-right"></i></a>
+                                                                <a class="btn btn-primary">Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -205,8 +196,7 @@
                                                     <p>Sample Woman Top</p>
                                                 </div>
                                                 <div>
-                                                    <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                    <a>Details <i class="fas fa-angle-right"></i></a>
+                                                    <a class="btn btn-primary">Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -225,8 +215,7 @@
                                                         <p>Sample Woman Top</p>
                                                     </div>
                                                     <div>
-                                                        <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                        <a>Details <i class="fas fa-angle-right"></i></a>
+                                                        <a class="btn btn-primary">Details</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,8 +234,7 @@
                                                             <p>Sample Woman Top</p>
                                                         </div>
                                                         <div>
-                                                            <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                            <a>Details <i class="fas fa-angle-right"></i></a>
+                                                            <a class="btn btn-primary">Details</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -266,8 +254,7 @@
                                                                 <p>Sample Woman Top</p>
                                                             </div>
                                                             <div>
-                                                                <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                                <a>Details <i class="fas fa-angle-right"></i></a>
+                                                                <a class="btn btn-primary">Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -280,7 +267,7 @@
             </div>
         </div>
     </div>
-</div>                
+</div>        
 
                         
 

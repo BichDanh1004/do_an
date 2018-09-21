@@ -1,5 +1,5 @@
-@extends('user.layout')
-@section('product_detail')
+@extends('customer.layout')
+@section('custom-container')
 
 <div class="inner-header">
 		<div class="container">
@@ -20,7 +20,7 @@
                                 <div class="col-4 ">
                                         <div class="card">
                                             <div class="img-thumbnail image-hover">
-                                            <img class="card-img-top" src={{asset('./images/images12.jpg')}} >
+                                            <img class="card-img-top" src="{{asset('./images/images12.jpg')}}" >
                                             </div>
                                             </div>  
           

@@ -1,5 +1,5 @@
 @extends('customer.layout')
-@section('homepage')
+@section('custom-container')
 
 <div class="container-fluid">
         <div class="d-flex flex-row ">
@@ -86,8 +86,7 @@
                                                 </div>
                                     <div>
                                         <div>
-                                            <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart btn-cart"></i></a>
-                                            <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                            <a class="btn btn-primary">Details</a>
                                         </div>
                                     </div>
                                     </div>
@@ -110,8 +109,7 @@
                                                     </div>
                                         <div>
                                             <div>
-                                                <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                                <a class="btn btn-primary">Details</a>
                                             </div>
                                         </div>
                                         </div>
@@ -134,8 +132,7 @@
                                                 </div>
                                     <div>
                                         <div>
-                                            <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                            <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                            <a class="btn btn-primary">Details</a>
                                         </div>
                                     </div>
                                     </div>
@@ -158,8 +155,7 @@
                                                     </div>
                                         <div>
                                             <div>
-                                                <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                                <a class="btn btn-primary">Details</a>
                                             </div>
                                         </div>
                                         </div>
@@ -189,8 +185,7 @@
                                         </div>
                             <div>
                                 <div>
-                                    <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                    <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                    <a class="btn btn-primary">Details</a>
                                 </div>
                             </div>
                             </div>
@@ -213,8 +208,7 @@
                                             </div>
                                 <div>
                                     <div>
-                                        <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                        <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                        <a class="btn btn-primary">Details</a>
                                     </div>
                                 </div>
                                 </div>
@@ -237,8 +231,7 @@
                                         </div>
                             <div>
                                 <div>
-                                    <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                    <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                    <a class="btn btn-primary">Details</a>
                                 </div>
                             </div>
                             </div>
@@ -261,8 +254,7 @@
                                             </div>
                                 <div>
                                     <div>
-                                        <a href="javascript:void(0);" class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                        <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                        <a class="btn btn-primary">Details</a>
                                     </div>
                                 </div>
                                 </div>
@@ -292,8 +284,7 @@
                                     </div>
                         <div>
                             <div>
-                                <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                <a class="btn btn-primary">Details</a>
                             </div>
                         </div>
                         </div>
@@ -316,8 +307,7 @@
                                         </div>
                             <div>
                                 <div>
-                                    <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                    <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                    <a class="btn btn-primary">Details</a>
                                 </div>
                             </div>
                             </div>
@@ -340,8 +330,7 @@
                                     </div>
                         <div>
                             <div>
-                                <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                <a class="btn btn-primary">Details</a>
                             </div>
                         </div>
                         </div>
@@ -364,8 +353,7 @@
                                         </div>
                             <div>
                                 <div>
-                                    <a class="add-to-cart btn btn-primary" role="button"><i class="fas fa-shopping-cart"></i></a>
-                                    <a>Details <i class="fas fa-angle-right"></i></i></a>
+                                    <a class="btn btn-primary">Details</a>
                                 </div>
                             </div>
                             </div>

@@ -39,6 +39,9 @@
                                   <i class="fas fa-angle-left text-light"></i>
                                 </a>
                             </div>
+                            <div>
+                                <a class="font-weight-bold text-color" href="{{url('homepage')}}">TRANG CHỦ</a>
+                          </div>
                            <div class="dropdown">  
                                 <a class="text-align font-weight-bold text-color active" href="javascript:void(0)">GIÀY CHÍNH HÃNG<i class="fas fa-angle-down mx-2"></i></a>
                                 <div class="dropdown-content">

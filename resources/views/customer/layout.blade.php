@@ -29,22 +29,11 @@
        <!-- Start content -->
        <div class="content">
            
-           <div class="container-fluid">
-                   
-            @yield('login')
-            @yield('signup')
-            @yield('adidas_shoe')
-            @yield('nike_shoe')
-            @yield('genuine_shoe')
-            @yield('homepage')
-            @yield('size_guide')
-            @yield('men_shoe')
-            @yield('women_shoe')
-            @yield('shoppingcart')
-            @yield('product_detail')
+          
+            @yield('custom-container')
+            
 
-
-           </div>
+       
            <!-- END container-fluid -->
 
        </div>
