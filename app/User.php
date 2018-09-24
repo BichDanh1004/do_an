@@ -2,28 +2,21 @@
 
 namespace App;
 
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Auth\Authenticatable as AuthenticableTrait;
 
-class User extends Authenticatable
-{
-    use Notifiable;
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'name', 'email', 'password',
-    ];
-
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
+class User extends Model implements Authenticatable
+{   
+    use AuthenticableTrait;
+    protected $table="users";
+    protected $primaryKey= "id_user";
+    
+    public function roles(){
+        return $this->belongsToMany('App\Role','role_user','id_user','id_role');
+    }
+    
+    public function cart(){
+        return $this->hasOne('App\Cart','id_customer','id_user');
+    }
 }

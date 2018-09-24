@@ -65,11 +65,107 @@
     </div>
 </div>
 
-<div class="container mt-5">
-<div>
-<h3 class="mb-3">SẢN PHẨM MỚI</h3>
-    <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-md-row">
+<div class="container">
+  <h3>SẢN PHẨM BÁN CHẠY</h3>
+    <div class="d-flex flex-row">
+            <div class="col-3">
+                    <div class="card mb-3 "> 
+                          <div class="card">
+                              <div class="img-thumbnail image-hover">
+                              <img class="card-img-top" src='https://product.hstatic.net/1000289015/product/tb2b8zvxq7mykjjszfgxxct9xxa___3161970426.jpg' >
+                              </div>
+                          
+                              <div class="card-body">
+                                      <div>
+                                              <p>Sample Woman Top</p>
+                                              <p>
+                                                  <span>$34.55</span>
+                                              </p>
+                                          </div>
+                              <div>
+                                  <div>
+                                      <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>  
+                      </div>
+                  </div>
+                  <div class="col-3">
+                        <div class="card mb-3 "> 
+                              <div class="card">
+                                  <div class="img-thumbnail image-hover">
+                                  <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}" >
+                                  </div>
+                              
+                                  <div class="card-body">
+                                          <div>
+                                                  <p>Sample Woman Top</p>
+                                                  <p>
+                                                      <span>$34.55</span>
+                                                  </p>
+                                              </div>
+                                  <div>
+                                      <div>
+                                        <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>  
+                          </div>
+                      </div>
+              <div class="col-3">
+                    <div class="card mb-3 "> 
+                          <div class="card">
+                              <div class="img-thumbnail image-hover">
+                              <img class="card-img-top" src="{{asset('./customer/images/images3.png')}}" >
+                              </div>
+                          
+                              <div class="card-body">
+                                      <div>
+                                              <p>Sample Woman Top</p>
+                                              <p>
+                                                  <span>$34.55</span>
+                                              </p>
+                                          </div>
+                              <div>
+                                  <div>
+                                    <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>  
+                      </div>
+                  </div>
+                  <div class="col-3">
+                        <div class="card mb-3 "> 
+                              <div class="card">
+                                  <div class="img-thumbnail image-hover">
+                                  <img class="card-img-top" src="{{asset('./customer/images/images4.jpg')}} ">
+                                  </div>
+                              
+                                  <div class="card-body">
+                                          <div>
+                                                  <p>Sample Woman Top</p>
+                                                  <p>
+                                                      <span>$34.55</span>
+                                                  </p>
+                                              </div>
+                                  <div>
+                                      <div>
+                                        <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>  
+                          </div>
+                     
+      </div>
+    </div>
+</div>
+<div class="container">
+        <h3>SẢN PHẨM MỚI NHẤT</h3>
+          <div class="d-flex flex-row">
                   <div class="col-3">
                           <div class="card mb-3 "> 
                                 <div class="card">
@@ -86,7 +182,7 @@
                                                 </div>
                                     <div>
                                         <div>
-                                            <a class="btn btn-primary">Details</a>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
                                         </div>
                                     </div>
                                     </div>
@@ -109,7 +205,7 @@
                                                     </div>
                                         <div>
                                             <div>
-                                                <a class="btn btn-primary">Details</a>
+                                                <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
                                             </div>
                                         </div>
                                         </div>
@@ -132,7 +228,7 @@
                                                 </div>
                                     <div>
                                         <div>
-                                            <a class="btn btn-primary">Details</a>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
                                         </div>
                                     </div>
                                     </div>
@@ -155,7 +251,7 @@
                                                     </div>
                                         <div>
                                             <div>
-                                                <a class="btn btn-primary">Details</a>
+                                                <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
                                             </div>
                                         </div>
                                         </div>
@@ -163,209 +259,12 @@
                                 </div>
                            
             </div>
-    </div>
- </div>
-<div>
-<h3 class="mb-3 mt-5">SẢN PHẨM BÁN CHẠY</h3>
-<div class="d-flex flex-column flex-md-row">
-    <div class="d-flex flex-md-row">
-          <div class="col-3">
-                  <div class="card mb-3 "> 
-                        <div class="card">
-                            <div class="img-thumbnail image-hover">
-                            <img class="card-img-top" src="{{asset('./customer/images/images5.jpg')}}" >
-                            </div>
-                        
-                            <div class="card-body">
-                                    <div>
-                                            <p>Sample Woman Top</p>
-                                            <p>
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                            <div>
-                                <div>
-                                    <a class="btn btn-primary">Details</a>
-                                </div>
-                            </div>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="col-3">
-                      <div class="card mb-3 "> 
-                            <div class="card">
-                                <div class="img-thumbnail image-hover">
-                                <img class="card-img-top" src="{{asset('./customer/images/images6.jpg')}}" >
-                                </div>
-                            
-                                <div class="card-body">
-                                        <div>
-                                                <p>Sample Woman Top</p>
-                                                <p>
-                                                    <span>$34.55</span>
-                                                </p>
-                                            </div>
-                                <div>
-                                    <div>
-                                        <a class="btn btn-primary">Details</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-            <div class="col-3">
-                  <div class="card mb-3 "> 
-                        <div class="card">
-                            <div class="img-thumbnail image-hover">
-                            <img class="card-img-top" src="{{asset('./customer/images/images7.jpg')}}" >
-                            </div>
-                        
-                            <div class="card-body">
-                                    <div>
-                                            <p>Sample Woman Top</p>
-                                            <p>
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                            <div>
-                                <div>
-                                    <a class="btn btn-primary">Details</a>
-                                </div>
-                            </div>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="col-3">
-                      <div class="card mb-3 "> 
-                            <div class="card">
-                                <div class="img-thumbnail image-hover">
-                                <img class="card-img-top" src="{{asset('./customer/images/images8.jpg')}}" >
-                                </div>
-                            
-                                <div class="card-body">
-                                        <div>
-                                                <p>Sample Woman Top</p>
-                                                <p>
-                                                    <span>$34.55</span>
-                                                </p>
-                                            </div>
-                                <div>
-                                    <div>
-                                        <a class="btn btn-primary">Details</a>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>  
-                        </div>
-                   
-    </div>
-</div>
-</div>
+      
+      
+            
+          </div>
+      </div>
 
-
-<div class="d-flex flex-column flex-md-row">
-<div class="d-flex flex-md-row mt-4">
-      <div class="col-3">
-              <div class="card mb-3 "> 
-                    <div class="card">
-                        <div class="img-thumbnail image-hover">
-                        <img class="card-img-top" src="{{asset('./customer/images/images9.jpg')}}" >
-                        </div>
-                    
-                        <div class="card-body">
-                                <div>
-                                        <p>Sample Woman Top</p>
-                                        <p>
-                                            <span>$34.55</span>
-                                        </p>
-                                    </div>
-                        <div>
-                            <div>
-                                <a class="btn btn-primary">Details</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-3">
-                  <div class="card mb-3 "> 
-                        <div class="card">
-                            <div class="img-thumbnail image-hover">
-                            <img class="card-img-top" src="{{asset('./customer/images/images10.jpg')}}" >
-                            </div>
-                        
-                            <div class="card-body">
-                                    <div>
-                                            <p>Sample Woman Top</p>
-                                            <p>
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                            <div>
-                                <div>
-                                    <a class="btn btn-primary">Details</a>
-                                </div>
-                            </div>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-        <div class="col-3">
-              <div class="card mb-3 "> 
-                    <div class="card">
-                        <div class="img-thumbnail image-hover">
-                        <img class="card-img-top" src="{{asset('./customer/images/images11.jpg')}}" >
-                        </div>
-                    
-                        <div class="card-body">
-                                <div>
-                                        <p>Sample Woman Top</p>
-                                        <p>
-                                            <span>$34.55</span>
-                                        </p>
-                                    </div>
-                        <div>
-                            <div>
-                                <a class="btn btn-primary">Details</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-3">
-                  <div class="card mb-3 "> 
-                        <div class="card">
-                            <div class="img-thumbnail image-hover">
-                            <img class="card-img-top" src="{{asset('./customer/images/images12.jpg')}}" >
-                            </div>
-                        
-                            <div class="card-body">
-                                    <div>
-                                            <p>Sample Woman Top</p>
-                                            <p>
-                                                <span>$34.55</span>
-                                            </p>
-                                        </div>
-                            <div>
-                                <div>
-                                    <a class="btn btn-primary">Details</a>
-                                </div>
-                            </div>
-                            </div>
-                        </div>  
-                    </div>
-               
-                </div>
-            </div>
-        </div>             
-    </div>
-</div>
-</div>
 <script>
     $(document).on('click', '.btn-cart', function(e) {
     e.preventDefault();

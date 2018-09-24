@@ -29,6 +29,7 @@ Route::get('adidas_shoe','ShoesController@AdidasShoe');
 Route::get('nike_shoe','ShoesController@NikeShoe');
 Route::get('men_shoe','ShoesController@MenShoe');
 Route::get('women_shoe','ShoesController@womenShoe');
+Route::get('show','BillController@Show');
 
 
  

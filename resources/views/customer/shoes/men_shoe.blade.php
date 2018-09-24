@@ -5,67 +5,36 @@
     <div class="d-flex flex-row ">
         <div class="col-12 ">
 
-                <div class="col-md-3 mt-5 genuine_shoes_left">
-                                <ul class="list-group" id="menu">
-                                    <li href="#" class="list-group-item menu1 active">
-                                        DANH MỤC SẢN PHẨM
-                                    </li>
-                
-                                    <li href="#" class="list-group-item menu1">
-                                        <a href="#">Adidas</a>
-                                    </li>
-                                    <ul style="display: none;">
-                                        <li class="list-group-item">
-                                            <a href="#">Adidas Energy</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Adidas EQT</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Adidas Galaxy</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Adidas Harden</a>
-                                        </li>
-                                    </ul>
-                
-                                    <li href="#" class="list-group-item menu1">
-                                        <a href="#">Nike</a>
-                                    </li>
-                                    <ul style="display: none;">
-                                        <li class="list-group-item">
-                                            <a href="#">Nike Air Force</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Nike Air Max </a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Nike Flyknit</a>
-                                        </li>
-                                        
-                                    </ul>
-                
-                
-                                    <li href="#" class="list-group-item menu1">
-                                        <a href="#">Giày Chính Hãng</a>
-                                    </li>
-                
-                                    <ul style="display: none;">
-                                        <li class="list-group-item">
-                                            <a href="#">Giày cho Nam</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Giày cho Nữ</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Level2</a>
-                                        </li>
-                                      
-                                    </ul>
-                
-                
-                                  
-                                </ul>
+                <div class="col-3 mt-5 genuine_shoes_left">
+                        <div class="sidenav">
+                            <button class="dropdown-btn">Adidas
+                              <i class="fas fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+        
+                            <button class="dropdown-btn">Nike
+                                <i class="fas fa-caret-down"></i>
+                            </button>
+                              <div class="dropdown-container">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+        
+                            <button class="dropdown-btn">Giày Chính Hãng
+                              <i class="fas fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+        
                             
 
                         
@@ -99,172 +68,172 @@
 
             <div class="col-9 genuine_shoes_right mt-5">
                 <div class="col-12">
-                        <h3 class="mb-4">GIÀY CHO NAM</h3>
-                        <div class="d-flex flex-column flex-md-row">
+                    <h3 class="mb-4">ADIDAS</h3>
+                    <div class="d-flex flex-column flex-md-row">
 
-                                <div class="col-3">
-                                    <div class="card mb-3 "> 
-                                        <div class="card">
-                                            <div class="img-thumbnail image-hover">
-                                                <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                            </div>
-                                                                            
-                                            <div class="card-body">
-                                                <div>
-                                                    <p>Sample Woman Top</p>
-                                                </div>
-                                                <div>
-                                                    <a class="btn btn-primary">Details</a>
-                                                </div>
-                                            </div>
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
                                         </div>
-                                    </div>  
-                                </div>
-
-                                <div class="col-3">
-                                        <div class="card mb-3 "> 
-                                            <div class="card">
-                                                <div class="img-thumbnail image-hover">
-                                                    <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                                </div>
-                                                                                
-                                                <div class="card-body">
-                                                    <div>
-                                                        <p>Sample Woman Top</p>
-                                                    </div>
-                                                    <div>
-                                                        <a class="btn btn-primary">Details</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                </div>
-                                    
-                                <div class="col-3">
-                                            <div class="card mb-3 "> 
-                                                <div class="card">
-                                                    <div class="img-thumbnail image-hover">
-                                                        <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                                    </div>
-                                                                                    
-                                                    <div class="card-body">
-                                                        <div>
-                                                            <p>Sample Woman Top</p>
-                                                        </div>
-                                                        <div>
-                                                            <a class="btn btn-primary">Details</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>  
-                                </div>
-                                    
-
-                                <div class="col-3">
-                                                <div class="card mb-3 "> 
-                                                    <div class="card">
-                                                        <div class="img-thumbnail image-hover">
-                                                            <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                                        </div>
-                                                                                        
-                                                        <div class="card-body">
-                                                            <div>
-                                                                <p>Sample Woman Top</p>
-                                                            </div>
-                                                            <div>
-                                                                <a class="btn btn-primary">Details</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>  
-                                </div>
-                    
-                </div>
-                </div>
-
-
-                <div class="col-12 mt-5">
-                        <div class="d-flex flex-column flex-md-row">
-
-                                <div class="col-3">
-                                    <div class="card mb-3 "> 
-                                        <div class="card">
-                                            <div class="img-thumbnail image-hover">
-                                                <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                            </div>
-                                                                            
-                                            <div class="card-body">
-                                                <div>
-                                                    <p>Sample Woman Top</p>
-                                                </div>
-                                                <div>
-                                                    <a class="add-to-cart btn btn-primary"  role="button"><i class="fas fa-shopping-cart"></i></a>
-                                                    <a>Details <i class="fas fa-angle-right"></i></a>
-                                                </div>
-                                            </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="col-3">
-                                        <div class="card mb-3 "> 
-                                            <div class="card">
-                                                <div class="img-thumbnail image-hover">
-                                                    <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                                </div>
-                                                                                
-                                                <div class="card-body">
-                                                    <div>
-                                                        <p>Sample Woman Top</p>
-                                                    </div>
-                                                    <div>
-                                                        <a class="btn btn-primary">Details</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                </div>
-                                    
-                                <div class="col-3">
-                                            <div class="card mb-3 "> 
-                                                <div class="card">
-                                                    <div class="img-thumbnail image-hover">
-                                                        <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                                    </div>
-                                                                                    
-                                                    <div class="card-body">
-                                                        <div>
-                                                            <p>Sample Woman Top</p>
-                                                        </div>
-                                                        <div>
-                                                            <a class="btn btn-primary">Details</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>  
-                                </div>
-                                    
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
 
-                                <div class="col-3">
-                                                <div class="card mb-3 "> 
-                                                    <div class="card">
-                                                        <div class="img-thumbnail image-hover">
-                                                            <img class="card-img-top" src={{asset('./images/image1.jpg')}} >
-                                                        </div>
-                                                                                        
-                                                        <div class="card-body">
-                                                            <div>
-                                                                <p>Sample Woman Top</p>
-                                                            </div>
-                                                            <div>
-                                                                <a class="btn btn-primary">Details</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>  
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
                                 </div>
-                    
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
+
+                <div class="col-12">
+                    <h3 class="mb-4">ADIDAS</h3>
+                    <div class="d-flex flex-column flex-md-row">
+
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-3">
+                            <div class="card mb-3 ">
+                                <div class="card">
+                                    <div class="img-thumbnail image-hover">
+                                        <img class="card-img-top" src="{{asset('./customer/images/images2.png')}}">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div>
+                                            <p>Sample Woman Top</p>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-primary" href="{{url('adidas_shoe')}}">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                    
             </div>

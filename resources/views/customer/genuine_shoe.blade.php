@@ -115,7 +115,7 @@
                                                 </div>
                                                 <div>
                                                     
-                                                    <a>Details <i class="fas fa-angle-right"></i></a>
+                                                    <>Details <i class="fas fa-angle-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
