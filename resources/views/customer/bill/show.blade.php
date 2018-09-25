@@ -13,19 +13,25 @@
                         <th>Mã khách hàng</th>
                         <th>Mã nhân viên</th>
                         <th>Địa chỉ</th>
+                        <th>Xóa</th>
+                        <th>Sửa</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                           
                           <td>
-                            <div></div>
-                          <td>
-                                <span></span>
+                            <div>1</div>
                           </td>
+
                           <td>
-                            <div></div>
+                                <span>1</span>
                           </td>
+
+                          <td>
+                            <div>1</div>
+                          </td>
+
                           <td>
                             <select>
                                 <option>Đã nhận </option>
@@ -34,13 +40,20 @@
                                
                                 </select>
                           </td>
+
                           <td>
-                                <div></div>
+                                <div>1</div>
                           </td>
+
                           <td>
-                            <div></div>
+                            <div>1</div>
+                          </td>
+
                           <td>
-                                <div></div>
+                                <div>1</div>
+                          </td>
+                          <td class="mx-3 mt-4"><i class="fas fa-trash-alt"></i></td>
+                          <td><i class="fas fa-pen-square"></i></td>
                         </tr>
                     </tbody>
                   </table>    

@@ -1,3 +1,20 @@
+.product_detail {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.genuine_shoe {
+    width: 1000px;
+    height: 500px;
+    margin-left: 170px;
+}
+
+
+/* danh mục sp*/
+
 .sidenav {
     height: auto;
     width: 200px;
@@ -46,7 +63,7 @@
 }
 
 input#search {
-    width: 400px;
+    width: 450px;
     border-radius: 25px;
 }
 
@@ -120,6 +137,7 @@ input#search {
     background-color: rgb(180, 56, 56);
     width: auto;
     height: auto;
+    z-index: 999999999999999;
 }
 
 #navbar a {
@@ -344,6 +362,7 @@ img {
     height: 80px;
     width: auto;
     color: black;
+    z-index: 999999999;
 }
 
 .container-fluid {

@@ -6,7 +6,7 @@
             </div>
             <div class="col-5 mt-3">
                         <input type="search" id="search" placeholder="Search..." />
-                        <span class="icon"><i class="fas fa-search"></i></span>
+                        
             </div>
             <div class="col-2 mt-3 ">
                 <div href="#"><i class="fas fa-user"></i>Tài khoản</div>

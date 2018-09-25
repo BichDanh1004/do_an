@@ -46,5 +46,5 @@
 
 </div>
 </body>
-<script src="{{asset('./customer/js/javascript.js')}}"></script>
+<script src="{{asset('./customer/javascript/javascript.js')}}"></script>
 </html>

@@ -12,14 +12,6 @@ function myFunction() {
 }
 
 
-$(document).on('click', '.btn-cart', function(e) {
-    e.preventDefault();
-    var parent = $(this).parents('.card-body');
-    var src = parent.find('img').attr('src');
-    alert(src);
-});
-
-
 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -32,3 +24,24 @@ window.onclick = function(e) {
         }
     }
 }
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    });
+}
+
+$(".menu1").next('ul').toggle();
+
+$(".menu1").click(function(event) {
+    $(this).next("ul").toggle(500);
+});
