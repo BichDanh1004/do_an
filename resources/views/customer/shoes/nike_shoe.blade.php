@@ -245,7 +245,7 @@
 <div class="container">
     <div class="d-flex flex-row">
         <div class="col-12 mb-5">
-                <h2 class="d-flex justify-content-center mt-5 mb-3">Nike: ông lớn trong lĩnh vực giày và các sản phẩm thể thao trên thế giới</h2>
+                <h2 class="d-flex justify-content-center mt-5 mb-5">Nike: ông lớn trong lĩnh vực giày và các sản phẩm thể thao trên thế giới</h2>
                 <p class="text_a mt-3">
                         <b>Nhẹ như lông hồng với những đôi giày sneaker Nike</b>
                         Nếu như trong những năm thập niên 90 thì người ta thường đi giày đế cao su thậm chí đế da và không ai để ý đến những đôi giày. Vào những năm gần đây khi mà Adidas có công nghệ Boost và cho ra những phiên bản Adidas Originals phục vụ nhu cầu thời trang mà vẫn giữ được xu hướng thời trang trẻ trung. Ông lớn Nike cũng không kém cạnh khi mà liên tục cho ra mắt những sản phẩm Nike Air với đế chân không nhìn xuyên thấu của Tinker Hatfield.
