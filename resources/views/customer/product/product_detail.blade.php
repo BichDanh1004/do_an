@@ -5,37 +5,20 @@
 <div class="container">
     <div class=" d-flex flex-row">
 
-        <div class="col-8">
-
-            <div class="col-6 mb-2 ">
-                <img class="card-img-top product_detail" src="{{asset('./customer/images/images2.png')}}">
-
-            </div>
-            <div class="col-6">
-
-
-                <img class="card-img-top product_detail" src="{{asset('./customer/images/images2.png')}}">
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-6 mb-2">
-
-                <img class="card-img-top product_detail" src="{{asset('./customer/images/images2.png')}}">
-
-            </div>
-            <div class="col-6">
-
-
-                <img class="card-img-top product_detail" src="{{asset('./customer/images/images2.png')}}">
-
-            </div>
-
-
-        </div>
-    </div>
-</div>
+        
+         <div class="col-4">
+                <div class="card">
+                        <div class="img-thumbnail ">
+                            <img class="card-img-top" src='https://product.hstatic.net/1000289015/product/tb2b8zvxq7mykjjszfgxxct9xxa___3161970426.jpg'>
+                        </div>
+         </div>
+         </div>
+         <div class="col-4">
+                <div class="img-thumbnail">
+                        <img class="card-img-top" src='https://product.hstatic.net/1000289015/product/tb2b8zvxq7mykjjszfgxxct9xxa___3161970426.jpg'>
+                    </div>
+         </div>
+       
     <div class="col-4 mt-5">
         <div class="single-item-body">
             <p class="single-item-title">Sample Woman Top</p>

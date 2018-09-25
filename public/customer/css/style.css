@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+.a {
+    justify-content: end;
+}
+
 .genuine_shoe {
     width: 1000px;
     height: 500px;

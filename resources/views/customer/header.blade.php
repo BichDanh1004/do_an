@@ -8,7 +8,7 @@
                         <input type="search" id="search" placeholder="Search..." />
                         
             </div>
-            <div class="col-2 mt-3 ">
+            <div class="col-2 mt-3 d-flex justify-content-end ">
                 <div href="#"><i class="fas fa-user"></i>Tài khoản</div>
             </div>
             <div class="col-2 mt-3 ">
