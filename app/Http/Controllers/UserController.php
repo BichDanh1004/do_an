@@ -100,9 +100,9 @@ class UserController extends Controller
     }
 
 
-    public function GenuineShoe()
+    public function Blog()
     {
-        return view('customer.genuine_shoe');
+        return view('customer.blog');
     }
     
     
