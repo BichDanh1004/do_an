@@ -243,7 +243,7 @@
 <div class="container">
     <div class="d-flex flex-row">
         <div class="col-12 mb-5">
-                <h2 class="text-align-center mt-5 mb-3">Giày Adidas Chính Hãng</h2>
+                <h2 class="d-flex justify-content-center mt-5 mb-3">Giày Adidas Chính Hãng</h2>
                 <p class="text_a mt-3">
                     <b>Adidas: thương hiệu thời trang thể thao hàng đầu trên thế giới</b>
                     Trong số các ông lớn trong làng giày thể thao, Adidas được mọi người biết đến với những thiết kế giày thể thao, 

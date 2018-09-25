@@ -243,7 +243,7 @@
 <div class="container">
     <div class="d-flex flex-row">
         <div class="col-12 mb-5">
-            <h2 class="text-align-center mt-5 mb-3">Giày Adidas Chính Hãng</h2>
+            <h2 class="d-flex justify-content-center mt-5 mb-3">Giày Adidas Chính Hãng</h2>
             <p class="text_a mt-3">
                 <b>Adidas: thương hiệu thời trang thể thao hàng đầu trên thế giới</b> Trong số các ông lớn trong làng giày thể thao, Adidas được mọi người biết đến với những thiết kế giày thể thao, phụ kiện, quần áo. Adidas được thành lập tại Đức và nhanh
                 chóng được các vận động viên olympic dùng. Với thiết kế hợp mắt, mẫu mã thay đổi liên tục theo những công nghệ mới, hiện đại, Adidas đã vươn lên là số một trong giới sneaker với những mẫu mã: NMD, UltraBoost, PureBoost, AlphaBounce, Stansmith…
