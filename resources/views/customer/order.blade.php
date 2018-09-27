@@ -27,28 +27,21 @@
                     </table>
         <hr/>
                     <div>
-                        <input type="radio" name="payment_method" value="cod">
-                        <label>Chuyển khoản ngân hàng </label>
+                        <label>- Chuyển khoản ngân hàng </label>
+                        <p>Vui lòng chuyển khoản vài tài khoản sau.<br>
+                            Thông tin tài khoản:<br>
+                           Võ A – stk: 0491000012345 – Vietcombank chi nhánh Đà Nẵng <br>
+                          
                     </div>
-                            <p>Vui lòng chuyển khoản vài tài khoản sau.<br>
-                               Thông tin tài khoản:<br>
-                              Võ A – stk: 0491000012345 – Vietcombank chi nhánh Đà Nẵng <br>
+        <hr/>   
 
                     <div>
-                        <input type="radio" name="payment_method">
-                        <label>Trả tiền mặt khi nhận hàng 	</label>
+                        <label>- Trả tiền mặt khi nhận hàng 	</label>
+                        <p>Trả tiền mặt khi giao hàng. Chỉ nhận thanh toán trực tiếp trong khu vực nội thành Hà Nội.</p>
+                        <p>Thông tin cá nhân của bạn sẽ được dùng để điền vào hóa đơn, giúp bạn thanh toán nhanh chóng và dễ dàng.</p>
                     </div>
             
-                    <div >
-                    <p>Trả tiền mặt khi giao hàng. Chỉ nhận thanh toán trực tiếp trong khu vực nội thành Hà Nội.</p>
-                     </div>
-                <hr/>
-                    <p>Thông tin cá nhân của bạn sẽ được dùng để điền vào hóa đơn, giúp bạn thanh toán nhanh chóng và dễ dàng.</p>
-                    <label>
-                        <input type="checkbox" >
-                            <span>Tôi đã đọc và đồng ý với Điều khoản và điều kiện của cửa hàng</span>&nbsp;<span class="required">*</span>
-                        </label>
-                        <input type="hidden" value="1">
+                    
 
                 
                 <button type="submit"  >Đặt hàng</button>
