@@ -10,6 +10,7 @@
                     <button class="dropdown-btn">Adidas
                       <i class="fas fa-caret-down"></i>
                     </button>
+                    
                     <div class="dropdown-container">
                       <a href="#">Link 1</a>
                       <a href="#">Link 2</a>
@@ -37,29 +38,7 @@
 
 
 
-                <div id="menu">
-                    <h5 class="mt-5 mx-4">Cỡ Giày Nam</h5>
-                    <ul class="ul_list">
-                        <li><input type="checkbox"> 40</li>
-                        <li><input type="checkbox"> 40.5</li>
-                        <li><input type="checkbox"> 41</li>
-                        <li><input type="checkbox"> 41.5</li>
-                        <li><input type="checkbox"> 42</li>
-                        <li><input type="checkbox"> 42.5</li>
-                    </ul>
-                </div>
-
-                <div id="menu">
-                    <h5 class="mt-5 mx-4">Cỡ Giày Nữ</h5>
-                    <ul>
-                        <li><input type="checkbox"> 36</li>
-                        <li><input type="checkbox"> 36.7</li>
-                        <li><input type="checkbox"> 37</li>
-                        <li><input type="checkbox"> 37.5</li>
-                        <li><input type="checkbox"> 38</li>
-                        <li><input type="checkbox"> 38.5</li>
-                    </ul>
-                </div>
+                
             </div>
 
 

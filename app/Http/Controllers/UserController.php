@@ -100,9 +100,9 @@ class UserController extends Controller
     }
 
 
-    public function Blog()
+    public function Order()
     {
-        return view('customer.blog');
+        return view('customer.order');
     }
     
     

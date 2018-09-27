@@ -164,7 +164,7 @@
     </div>
 </div>
 <div class="container">
-    <h3>SẢN PHẨM MỚI NHẤT</h3>
+    <h3>SẢN PHẨM BÁN CHẠY</h3>
     <div class="d-flex flex-row">
         <div class="col-3">
             <div class="card mb-3 ">

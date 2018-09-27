@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+.your-order {
+    background-color: #333;
+}
+
 .font-size-text {
     font-size: 20px;
 }
@@ -110,10 +114,7 @@ input#search {
 
 .genuine_shoes_left {
     float: left;
-}
-
-.genuine_shoes_right {
-    float: right;
+    border: 2px solid #333;
 }
 
 .slide {

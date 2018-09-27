@@ -19,7 +19,7 @@ Route::get('signup','UserController@Signup');
 Route::get('login','UserController@Login');
 Route::get('layout','UserController@Layout');
 Route::get('homepage','UserController@HomePage');
-Route::get('blog','UserController@Blog');
+Route::get('order','UserController@Order');
 Route::get('size_guide','UserController@SizeGuide');
 
 Route::get('cart','CartController@Cart');

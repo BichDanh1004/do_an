@@ -8,7 +8,6 @@
                                         <li><a><i class="fas fa-angle-down"></i> Tài Khoản</a></li>
                                         <li><a><i class="fas fa-angle-down"></i> Hướng Dẫn Đặt Hàng</a></li>
                                         <li><a><i class="fas fa-angle-down"></i> Cam Kết Bảo Hàng</a></li>
-                                        <li><a><i class="fas fa-angle-down"></i> Theo Dõi Đơn Hàng</a></li>
                                         <li><a><i class="fas fa-angle-down"></i>Cửa Hàng</a></li>
                                         <li><a><i class="fas fa-angle-down"></i> Giới Thiệu</a></li>
                                     </ul>
